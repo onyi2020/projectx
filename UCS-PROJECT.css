@@ -2,7 +2,15 @@ body{
 	background-color:#f7f8f9;
 }
 .navbar-nav{
-	margin: 50px 20px 20px 20px;
+	margin: 10px 20px 20px 20px;
+}
+#searchgroup{
+	text-align: right;
+	float: left;
+	margin-top: 10px;
+}
+input{
+	margin-top: 15px;
 }
 .img-circle{
 	border-radius: 50%;
@@ -14,8 +22,16 @@ body{
 	padding:2px;
 	background-color:white;
 }
-#image{
-	margin:auto;
+/*#image{
+	margin-top:10px;
+}*/
+#name{
+	text-align: center;
+}
+.exp{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 #words{
 	word-spacing: 20px;
