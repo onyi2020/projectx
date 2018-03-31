@@ -1,11 +1,15 @@
 body{
 	background-color:#f7f8f9;
 }
+.navbar{
+	background-color: white;
+}
 .navbar-nav{
 	margin: 10px 20px 20px 20px;
+
 }
 #searchgroup{
-	text-align: right;
+	text-align: left;
 	float: left;
 	margin-top: 10px;
 }
@@ -21,14 +25,49 @@ input{
 	padding:2px;
 	background-color:white;
 }
-#suggest{
-	position: relative;
-	top: 0px
+.suggest{
+	position: absolute;
+	top: 0px;
+	width:100%;
 	background-color: green;
 	display: inline-block;
 	text-align: left;
-	padding: 12px
+	padding-top: 10px;
+	padding-left: 5px;
+	color: white;
 }
+.first-powers{
+	margin-top: 40px;
+}
+#page{
+	margin:3px;
+	padding: 5px;
+}
+#power{
+	margin-top: -5px;
+	display: block;
+}
+.powers{
+	margin:10px;
+	padding:5px;
+}
+.digital{
+	margin-left: 50px;
+	padding:5px;
+}
+#btn{
+	margin-top: 0px;
+	margin-left: 50px;
+}
+#btn .btn{
+	margin:auto 0px;
+}
+/*#digital{
+	margin: 5px;
+	padding: 10px;
+	float: left;
+	display: inline-block;
+}*/
 #image{
 	margin-top:15px;
 }
@@ -40,14 +79,31 @@ input{
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+.butn{
+background-color:#f7f8f9;
+margin-top: 10px;
+margin-left: 20px;
+height: 30px;
+width: auto; 
+}
+.butn-default{
+	font-size: 12px;
+}
 .btn{
 background-color: #f7f8f9;
 margin-top: 10px;
 margin-left: 20px;
-line-height: 1.0;
+height: 30px;
+width: 70px;
 }
 .btn-default{
 	font-size: 12px;
+}
+.connect-button{
+	margin-top:5px;
+	margin-left: 50px;
+	background-color: #3bb75e;
+	color: white;
 }
 #help{
 	margin-top: 20px;
@@ -97,9 +153,17 @@ textarea{
 #places{
 word-spacing: 5px;
 }
-#button{
-	background-color: green
+.connect-btn{
+	background-color: #3bb75e;
 	margin-left:10px;
+	color:white;
+}
+.button{
+background-color: #3bb75e;
+}
+.button-pry{
+color: white;
+font-size: 15px;
 }
 #career{
 	margin: -10px 30px;
